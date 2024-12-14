@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.Nav {
+  position: relative;
+  /* bottom: 76px; */
+  margin-bottom: 50px;
+ 
+}
+a
+{
+margin: 0px 100px;
+}
+body {
+  margin: 0; 
+  display: block;
+  
+  min-width: 0px; 
+  min-height: 0px;
+}
+
+.product
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+
